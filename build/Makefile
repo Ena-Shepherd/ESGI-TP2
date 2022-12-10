@@ -1,6 +1,7 @@
 SRC =	../src/main.c \
 		../src/menu.c \
-		../src/exo1.c
+		../src/exo1.c \
+		../src/exo2.c
 
 NAME = tp2
 

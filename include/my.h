@@ -5,3 +5,4 @@
 //Prototypage des fonctions pour la modularité
 void menu(void);
 void exo_1(void);
+void exo_2(void);
