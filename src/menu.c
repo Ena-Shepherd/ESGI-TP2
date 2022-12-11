@@ -6,10 +6,7 @@ void menu(void)
     int request;
 
     while(1) {
-        printf("Quel exercice souhaitez vous compiler ?\n\
-    1.exo1      2.exo2\n\
-    3.exo3      4.exo4\n\
-                0.quitter\n"
+        printf("Quel exercice souhaitez vous compiler ?\n\n1.exo1 - Résoudre une équation du second degré\n2.exo2 - Programmer une suite\n3.exo3 - Fibonacci\n4.exo4 - Le nombre d’or & Fibonacci\n\n0.quitter\n"
         );
         scanf("%d", &request);
         switch (request) {
