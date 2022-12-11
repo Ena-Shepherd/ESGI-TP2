@@ -8,7 +8,8 @@ void menu(void)
     while(1) {
         printf("Quel exercice souhaitez vous compiler ?\n\
     1.exo1      2.exo2\n\
-    3.exo3      0.quitter\n"
+    3.exo3      4.exo4\n\
+                0.quitter\n"
         );
         scanf("%d", &request);
         switch (request) {
@@ -23,6 +24,9 @@ void menu(void)
             break;
             case 3:
                 exo_3();
+            break;
+            case 4:
+                exo_4();
             break;
             default:
                 exit(84);
