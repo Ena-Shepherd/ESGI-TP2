@@ -6,7 +6,7 @@ void menu(void)
     int request;
 
     while(1) {
-        printf("Quel exercice souhaitez vous compiler ?\n\n1.exo1 - Résoudre une équation du second degré\n2.exo2 - Programmer une suite\n3.exo3 - Fibonacci\n4.exo4 - Le nombre d’or & Fibonacci\n\n0.quitter\n"
+        printf("Quel exercice souhaitez vous compiler ?\n\n1.exo1 - Résoudre une équation du second degré\n2.exo2 - Programmer une suite\n3.exo3 - Fibonacci\n4.exo4 - Le nombre d’or & Fibonacci\n5.exo5 - Exercice 421\n\n0.quitter\n"
         );
         scanf("%d", &request);
         switch (request) {
@@ -24,6 +24,9 @@ void menu(void)
             break;
             case 4:
                 exo_4();
+            break;
+            case 5:
+	        exo_5();
             break;
             default:
                 exit(84);

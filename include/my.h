@@ -8,5 +8,6 @@ void exo_1(void);
 void exo_2(void);
 void exo_3(void);
 void exo_4(void);
+int exo_5(void);
 
 unsigned long fibonacci(int n);
